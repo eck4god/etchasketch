@@ -1,0 +1,16 @@
+body,html {
+    background-color: blue;
+}
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.gridsquare {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
