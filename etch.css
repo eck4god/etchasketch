@@ -5,12 +5,17 @@ body,html {
 .grid {
     display: inline-grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 .gridsquare {
     background-color: white;
-    border: 1px solid black;
-    padding: 20px;
+    border: 0.5px solid black;
+    padding: 25px;
     font-size: 30px;
     text-align: center;
 }
